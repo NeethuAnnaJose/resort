@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstay</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Redaction+10:ital,wght@0,400;0,700;1,400&family=Redaction:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bookinglayout" style="height: 100vh; overflow: hidden;">
+        <div class="row g-0">
+            <div class="col-md-6 image-selection">
+                <div id="carouselExample" class="carousel slide h-100">
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item active h-100">
+                            <img src="./media/d1.webp" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="./media/d2.webp" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                        </div>
+                        <div class="carousel-item h-100">
+                            <img src="./media/d3.webp" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                        </div>
+                         <div class="carousel-item h-100">
+                            <img src="./media/d4.webp" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- </div>  -->
+            <div class="col-md-6 text-selection" style="height: 100vh; overflow-y: auto; overflow-x: hidden;scrollbar-width: none;">
+                <a href="./index.html"><button type="button" class="btn-close position-absolute position: absolute;" style="right: 50px;
+    top: 19px;" aria-label="Close"></button></a>
+                <div class="card-body m-5">
+                    <h5 class="card-title" style="color:#4a342e; font-size:40px">Deluxe Cottage</h5>
+                    <p class="card-text" style="color: #934a22
+; font-size: 20px; font-weight: 500;"><i>Room to Breathe, Refined</i></p>
+                    <p class="card-text" style="color: #4a342e; font-size: 18px;">Spacious interiors, scenic views and a private balcony make it easy to stay a little longer.</p>
+                    <hr>
+
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col d-flex">
+                                <i id="spaceicon" class="fa-solid fa-diamond"></i>
+                                <h6 id="spacetext">Spacious bedroom</h6>
+                            </div>
+                            <div class="col d-flex">
+                               <i id="spaceicon" class="fa-solid fa-diamond"></i>
+                                <h6 id="spacetext">Premium furnishings</h6>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col d-flex">
+                                <i id="spaceicon" class="fa-solid fa-diamond"></i>
+                                <h6 id="spacetext">Scenic balcony</h6>
+                            </div>
+                            <div class="col d-flex">
+                               <i id="spaceicon" class="fa-solid fa-diamond"></i>
+                                <h6 id="spacetext">Nature-facing outlook</h6>
+                            </div>
+                           
+                            
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                           
+                            <div class="col d-flex">
+                                <i id="spaceicon" class="fa-solid fa-diamond"></i>
+                                <h6 id="spacetext" >Smart TV & Wi-Fi</h6>
+                            </div>
+                            <div class="col d-flex">
+                                <i id="spaceicon" class="fa-solid fa-diamond"></i>
+                                <h6 id="spacetext" >Air conditioning</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr>
+<div class="formdetailsbookstay">
+  <form class="row g-3">
+
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Your name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="you@gmail.com">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">phone</label>
+                            <input type="text" class="form-control" id="inputPassword4" placeholder="+91">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Checkin</label>
+                            <input type="date" class="form-control" id="inputEmail4" placeholder="you@gmail.com">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Checkout</label>
+                            <input type="date" class="form-control" id="inputPassword4" placeholder="+91">
+                        </div>
+                        <label for="guests">Guests</label>
+                        <select id ="guests" class="form-select" aria-label="Default select example">
+                            <option selected>Select guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 to 4 Guests</option>
+                            <option value="3">5 to 6 Guests</option>
+                            <option value="3">Family / Group</option>
+                            <option value="3">Corporate Retreat</option>
+
+
+                        </select>
+
+                        <div class="mb-3">
+                            <label for="validationTextarea" class="form-label">Message</label>
+                            <textarea class="form-control" id="validationTextarea"
+                                placeholder="Required example textarea" required></textarea>
+                            <div class="invalid-feedback">
+                                Tell us how you like to slow down.
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn"
+                                style="background-color: #c57a5a; color: bisque; width: 100%;">SEND ENQUIRY</button>
+                        </div>
+                    </form>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

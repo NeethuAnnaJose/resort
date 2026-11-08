@@ -1,0 +1,428 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+background-color: #efe7d8;
+}
+
+@font-face {
+    font-family: "La Luxes";
+    src: url(./font/LaLuxesSerif-Regular.otf) format("opentype");
+}
+
+h1 {
+    font-family: "La Luxes", Georgia, "Times New Roman", serif
+}
+
+.btnqa{
+    color:#a8572f ;
+    width: 180px;
+    height: 41px;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid #a8572f;
+    background-color: #efe7d8;
+}
+.btnqa:hover{
+    background-color: #a8572f;
+    color: white;
+}
+
+
+#headinghome {
+    color: #d9ccb8;
+
+}
+
+
+.image-selection .carousel{
+    height: 100%;
+}
+
+.image-selection .carousel-inner,
+.image-selection .carousel-item{
+    height: 100%;
+}
+
+.image-selection img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#yourplacehead{
+color: white;
+font-size: 30px;
+}
+
+#yourplacepara{
+color: #87776d;
+font-size: 18px;
+}
+
+#yourplacebtn{
+   /* padding: 13px 10%; */
+   width: 190px;
+   height: 50px;
+    border: none;
+    background-color: #a8572f;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+}
+
+#yourplacebtn:hover{
+transform: translateY(-2px);
+}
+
+.footerreqastay{
+    transition: 0.5s ease;
+}
+
+.footerreqastay:hover{
+transform: translateY(-2px);
+}
+
+#getawayicons{
+    color:white;
+        font-size: 25px;
+margin-bottom: 8px;
+
+}
+
+.navbar-toggler{
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important
+
+}
+
+#hillstitle{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#getawaytitle{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+margin-bottom: 8px;
+}
+
+#getawaypara{
+color: #c4b3a8;
+}
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 60px 5%;
+    background-color: #2f3f28;
+    color: #c4b3a8;
+}
+
+/* Brand section */
+.footer-brand {
+    flex: 1.5;
+    min-width: 0;
+}
+
+.footer-brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.footer-signature {
+    color: #efe7d8;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/* Explore links */
+.footer-links {
+    flex: 1;
+}
+
+.footer-links a {
+    display: block;
+    color: #c4b3a8;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.footer-links a:hover {
+    color: #efe7d8;
+}
+
+/* Reach us */
+.footer-contact {
+    flex: 1;
+}
+
+.footer h3 {
+    color: #efe7d8;
+    margin-bottom: 25px;
+}
+
+.footer-contact p {
+    color: #c4b3a8;
+    line-height: 2;
+}
+
+#detailsnav{
+    width:6%;
+}
+
+/* Tablet and mobile */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        gap: 35px;
+        padding: 40px 25px;
+    }
+
+    .footer-brand,
+    .footer-links,
+    .footer-contact {
+        width: 100%;
+        flex: none;
+    }
+}
+
+/* #detailsnav{
+    width:13%;
+} */
+
+.text-selection{
+height: 100vh;
+overflow-y: auto;
+}
+
+#bydaymain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#subhome{
+    background: linear-gradient(180deg, rgba(250, 172, 172, 0.55) 0%, rgba(15, 15, 15, 0.75) 60%, #0F0F0F 100%), url(./media/hero.webp);
+    
+
+    /* background-image: url(./media/hero.webp);  */
+    background-repeat: no-repeat;
+     background-position: bottom; 
+     width: 100%;
+      height: 100vh; 
+      background-attachment: fixed;
+}
+
+#homePara {
+    color: #d9ccb8;
+
+}
+
+#abutplaceimg {
+    width: 550px
+}
+
+
+#destinationimg{
+    background-repeat: no-repeat;
+    background-position: bottom;
+    object-fit: cover;
+}
+
+.card-titledest{
+    font-size: 40px;
+    color: #e7d5c9;
+}
+
+#abtplacePara{
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: #87776d;
+font-size: 20px;
+}
+
+.adaycardTitle{
+font-size: 12px;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+color: #a8572f;
+font-weight: 700;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+}
+
+.adaycardText{
+        opacity: .86;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+#adayPara{
+font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: #87776d;
+font-size: 18px;
+}
+
+#getawayPara{
+     color: #e7d5c9;
+     font-size: 20px;
+     font-weight: 400;
+}
+
+#vissionmission{
+font-size: 25px;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+color: #a8572f;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#stay {
+    font-family: "Neue Montreal", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-weight: 500;
+    
+}
+#stay:hover{
+    text-decoration: underline #a8572f;
+}
+
+#staybtn{
+font-family: "Neue Montreal", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+
+
+
+#staybtn:hover{
+    transform: translateY(-2px);
+}
+
+.spaces-card{
+    overflow: hidden;
+}
+
+.spaces-card img{
+    transition: transform 0.5s ease;
+}
+
+.spaces-card:hover img{
+    transform: scale(1.1);
+}
+
+#spaceicon{
+    color: #a8572f;
+    font-size: 8px;
+    margin: 10px;
+}
+
+#spacetext{
+    color: #4a342e;
+
+}
+
+#avantra {
+    font-family: "La Luxes", Georgia, "Times New Roman", serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+#btnhome{
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: white;
+    font-weight: 500;
+    transition: 0.5s ease;
+}
+
+
+
+#btnhome:hover{
+    transform: translateY(-2px);
+}
+
+
+@media (max-width:1024px){
+    
+#abtplacemain{
+flex-direction: column;
+}
+
+.getawaycards{
+    display: flex;
+    flex-direction: column;
+}
+.cardsaday{
+    flex-direction: column;
+}
+.bookinglayout{
+    flex-direction: column;
+}
+
+#homepage .card-img{
+    height: 100vh;
+    object-fit: cover;
+}
+#homepage .card-img-overlay{
+    inset: 0 ;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+#headinghome{
+    font-size: 35px;
+}
+
+#homePara{
+    font-size: 16px;
+    text-align: center;
+}
+.bttnshome{
+    flex-direction: column;
+    gap: 15px;
+}
+#btnhome{
+    width: 100%;
+    padding: 15px 20px !important;
+}
+
+#locationid{
+    width: auto !important;
+}
+h1{
+    font-size: 20px !important;
+}
+.card-img-overlay{
+    height: stretch;
+}
+#abutplaceimg {
+    width: 200px;
+}
+#avantra {
+ letter-spacing: 0px;
+}
+}

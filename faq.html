@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q and A</title>
+    <link rel="icon" type="image/svg+xml" href="./media/favicon.svg.png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Redaction+10:ital,wght@0,400;0,700;1,400&family=Redaction:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nav -->
+     <nav class="navbar navbar-expand-lg position-fixed z-1" style="width: 100%; background-color: #2f3f28;">
+        <div class="container">
+            <!-- <div class="detailsnav"> -->
+            <img  src="./media/logo.png" alt="" id="detailsnav">
+            <a class="navbar-brand text-light" href="./index.html" id="avantra">Avantra</a>
+            <!-- </div> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-6 active" aria-current="page" href="./stay.html" id="stay">STAY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="./experience.html"
+                            id="stay">EXPERIENCE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="./dining.html" id="stay">DINING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="./location.html" id="stay">LOCATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="./faq.html" id="stay">FAQ</a>
+                    </li>
+
+                    <form class="d-flex" role="search">
+                        <button id="staybtn" class="btn text-light border-none" type="submit"
+                                style="background-color: #a8572f
+;"><a style="color: #efe7d8; text-decoration: none;" href="./reserve.html">RESERVE</a></button>
+                    </form>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <!-- Q and A -->
+    <div class="qna">
+
+
+        <div class="row g-0 " style="padding: 100px;">
+
+            <div class="col-md-6 p-4 ps-md-0 d-flex flex-column justify-content-center align-item-center">
+                <h1 id="hillstitle">Questions, Answered
+                </h1>
+                <p id="yourplacepara">A few things guests often ask before they arrive. For anything else, our team is
+                    only a call away.</p>
+                <button class="btnqa"><i class="fa-solid fa-phone"></i> +91 7795649122</button>
+            </div>
+            <div class="col-md-6 mb-md-0 p-md-4">
+
+
+
+                <p class="d-inline-flex gap-1 ">
+                    <a data-bs-toggle="collapse" href="#reachCollapse" role="button" aria-expanded="false"
+                        aria-controls="reachCollapse" style="padding: 20px;
+    width: 600px;border-top: 1px solid #4a342e29;
+     text-decoration: none;    color:#2c211c;
+    font-size: 23px;">
+
+                        <span style="padding: 20px;font-size: 20px;
+    font-weight: 500;">Where is Ashvana, and how do I reach it? </span>
+                        <span style="color: #9b5230 ;">+</span>
+                    </a>
+
+                </p>
+                <div class="collapse" id="reachCollapse">
+                    <div style="border-bottom: 1px solid #4a342e29;     margin-left: 44px;">
+                        Avantra sits in the hills of Sakleshpur, deep in the Malnad region of Karnataka's Western Ghats.
+                        It is roughly a four to five hour drive from Bengaluru and about three hours from Mangaluru,
+                        whose airport is the nearest. The closest railway station is Sakleshpur. Once you book, our team
+                        shares precise directions and can help arrange a transfer.
+                    </div>
+                </div>
+
+                <p class="d-inline-flex gap-1 ">
+                    <a data-bs-toggle="collapse" href="#reachCollapse2" role="button" aria-expanded="false"
+                        aria-controls="reachCollapse2" style="padding: 20px;
+    width: 600px;border-top: 1px solid #4a342e29;
+     text-decoration: none;    color:#2c211c;
+    font-size: 23px;">
+
+                        <span style="padding: 20px;font-size: 20px;
+    font-weight: 500;">What is included during my stay? </span>
+                        <span style="color: #9b5230 ;">+</span>
+                    </a>
+
+                </p>
+                <div class="collapse" id="reachCollapse2">
+                    <div style="border-bottom: 1px solid #4a342e29;     margin-left: 44px;">
+                        Your days here are full without being busy. There is an infinity pool, a multi-cuisine
+                        restaurant, forest walking trails, indoor and outdoor games, a children's play area, and a
+                        wellness spa. As evening falls, there is a bonfire, an open-air amphitheatre, a poolside snacks
+                        counter, and talks led by resident coffee experts.
+                    </div>
+                </div>
+
+
+                <p class="d-inline-flex gap-1 ">
+                    <a data-bs-toggle="collapse" href="#reachCollapse3" role="button" aria-expanded="false"
+                        aria-controls="reachCollapse3" style="padding: 20px;
+    width: 600px;border-top: 1px solid #4a342e29;
+     text-decoration: none;    color:#2c211c;
+    font-size: 23px;">
+
+                        <span style="padding: 20px;font-size: 20px;
+    font-weight: 500;">Is Avantrasuited to families, couples, and groups? </span>
+                        <span style="color: #9b5230 ;">+</span>
+                    </a>
+
+                </p>
+                <div class="collapse" id="reachCollapse3">
+                    <div style="border-bottom: 1px solid #4a342e29;     margin-left: 44px;">
+                        Yes, to all of them. Intimate cottages hold space for couples, the Family Cottage gathers
+                        everyone close, and our banquet hall and amphitheatre make room for celebrations, reunions, and
+                        corporate retreats alike.
+                    </div>
+                </div>
+
+                <p class="d-inline-flex gap-1 ">
+                    <a data-bs-toggle="collapse" href="#reachCollapse4" role="button" aria-expanded="false"
+                        aria-controls="reachCollapse4" style="padding: 20px;
+    width: 600px;border-top: 1px solid #4a342e29;
+     text-decoration: none;    color:#2c211c;
+    font-size: 23px;">
+
+                        <span style="padding: 20px;font-size: 20px;
+    font-weight: 500;">What is the food like? </span>
+                        <span style="color: #9b5230 ;">+</span>
+                    </a>
+
+                </p>
+                <div class="collapse" id="reachCollapse4">
+                    <div style="border-bottom: 1px solid #4a342e29;     margin-left: 44px;">
+                        Every meal is drawn from the land around it. Regional Malnad delicacies sit alongside gourmet
+                        plates, cooked from the freshest ingredients and served where birdsong and breeze are part of
+                        the table.
+                    </div>
+                </div>
+
+                <p class="d-inline-flex gap-1 ">
+                    <a data-bs-toggle="collapse" href="#reachCollapse5" role="button" aria-expanded="false"
+                        aria-controls="reachCollapse5" style="padding: 20px;
+    width: 600px;border-top: 1px solid #4a342e29;
+     text-decoration: none;    color:#2c211c;
+    font-size: 23px;">
+
+                        <span style="padding: 20px;font-size: 20px;
+    font-weight: 500;">Can Avantrahost events and corporate retreats?</span>
+                        <span style="color: #9b5230 ;">+</span>
+                    </a>
+
+                </p>
+                <div class="collapse" id="reachCollapse5">
+                    <div style="border-bottom: 1px solid #4a342e29;     margin-left: 44px;">
+                        It is built for them. The banquet hall, the open-air amphitheatre, and the wide grounds suit
+                        weddings, vows, milestone celebrations, and offsites that people remember. Share your plans
+                        through the enquiry form and our team will design around them.
+                    </div>
+                </div>
+
+                <p class="d-inline-flex gap-1 ">
+                    <a data-bs-toggle="collapse" href="#reachCollapse6" role="button" aria-expanded="false"
+                        aria-controls="reachCollapse6" style="padding: 20px;
+    width: 600px;border-top: 1px solid #4a342e29;
+     text-decoration: none;    color:#2c211c;
+    font-size: 23px;">
+
+                        <span style="padding: 20px;font-size: 20px;
+    font-weight: 500;">What kinds of stays are available? </span>
+                        <span style="color: #9b5230 ;">+</span>
+                    </a>
+
+                </p>
+                <div class="collapse" id="reachCollapse6">
+                    <div style="border-bottom: 1px solid #4a342e29;     margin-left: 44px; ">
+                        Five, each shaped for a different kind of guest. The Twin Cottage suits couples, the Deluxe and
+                        Family Cottages open up for those travelling together, the Premium Cottage is our most private
+                        retreat, and the Hornbill Suite is a striking container-style stay tucked into the canopy. Every
+                        room frames a view and carries the modern comforts you would expect.
+                    </div>
+                </div>
+
+
+                <p class="d-inline-flex gap-1 ">
+                    <a data-bs-toggle="collapse" href="#reachCollapse7" role="button" aria-expanded="false"
+                        aria-controls="reachCollapse7" style="padding: 20px;
+    width: 600px;border-top: 1px solid #4a342e29;
+     text-decoration: none;    color:#2c211c;
+    font-size: 23px;">
+
+                        <span style="padding: 20px;font-size: 20px;
+    font-weight: 500;">When is the best time to visit?</span>
+                        <span style="color: #9b5230 ;">+</span>
+                    </a>
+
+                </p>
+                <div class="collapse" id="reachCollapse7">
+                    <div style="border-bottom: 1px solid #4a342e29;     margin-left: 44px;">
+                        There is no wrong season. The monsoon, from June to September, turns the hills emerald and wraps
+                        the mornings in mist. October to February brings cool, clear days that are perfect for walking
+                        and watching the valley. In the drier months, coffee blossom scents the whole estate.
+                    </div>
+                </div>
+
+
+                <p class="d-inline-flex gap-1 ">
+                    <a data-bs-toggle="collapse" href="#reachCollapse8" role="button" aria-expanded="false"
+                        aria-controls="reachCollapse8" style="padding: 20px;
+    width: 600px;border-top: 1px solid #4a342e29;
+     text-decoration: none;    color:#2c211c;
+    font-size: 23px;">
+
+                        <span style="padding: 20px;font-size: 20px;
+    font-weight: 500;">What is there to see nearby? </span>
+                        <span style="color: #9b5230 ;">+</span>
+                    </a>
+
+                </p>
+                <div class="collapse" id="reachCollapse8">
+                    <div style="border-bottom: 1px solid #4a342e29;     margin-left: 44px;">
+                        Plenty, and all within an easy drive. Manjarabad Fort, the waterfalls at Hadlu and Manjehalli,
+                        Bisle View Point, the temples at Kukke Subramanya and Sakleshpura, the Hoysala marvels of
+                        Halebidu and Belur, and the sunken church at Shettihalli are close at hand. You will find the
+                        full list, with distances, in the Location section above.
+                    </div>
+                </div>
+
+
+                <p class="d-inline-flex gap-1 ">
+                    <a data-bs-toggle="collapse" href="#reachCollapse9" role="button" aria-expanded="false"
+                        aria-controls="reachCollapse9" style="padding: 20px;
+    width: 600px;border-top: 1px solid #4a342e29;
+     text-decoration: none;    color:#2c211c;
+    font-size: 23px;">
+
+                        <span style="padding: 20px;font-size: 20px;
+    font-weight: 500;">How do I book, or ask for something specific? </span>
+                        <span style="color: #9b5230 ;">+</span>
+                    </a>
+
+                </p>
+                <div class="collapse" id="reachCollapse9">
+                    <div style="border-bottom: 1px solid #4a342e29;     margin-left: 44px;">
+                        Share your dates through the enquiry form or call us at +91 81528 83388, and our team will
+                        confirm availability and tailor your stay. For special requests, whether early check-in,
+                        accessibility, or pet arrangements, reach out directly and we will do our best to accommodate.
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- footer -->
+     <div id="footer" class="footer" style="background-color: #2f3f28;">
+        <div class="p-2 footer-brand">
+            <img src="./media/logo.png" alt="" style="width: 15%;">
+            <a class="navbar-brand text-light" href="#" id="avantra">Avantra</a>
+            <p id="getawaypara">A sustainable luxury reserve in the heart of<br> Malnad, where time slows, nature
+                speaks,<br> and the soul
+                rediscovers peace.</p>
+            <h5 style="color: #efe7d8; text-transform:uppercase  ; font-size: 12px;">A Vibez Estates Signature</h5>
+        </div>
+        <div class="footer-links">
+            <h3>Explore</h3>
+            <p><a class="link-opacity-10-hover" href="#home">The Sanctuary </a></p>
+            <p><a class="link-opacity-50-hover" href="#spaces">Accommodations</a></p>
+            <p><a class="link-opacity-50-hover" href="#aday">Experiences</a></p>
+            <p><a class="link-opacity-50-hover" href="#meals">Dining</a></p>
+            <p><a class="link-opacity-50-hover" href="#location">Location</a></p>
+            <p><a class="link-opacity-50-hover" href="#qna">FAQ</a></p>
+
+        </div>
+        <div class="p-2 footer-contact">
+            <h3>Reach Us</h3>
+            <p>Sakleshpur, Karnataka<br>
+
+                +91 7795649122<br>
+                www.ashvanaresort.com<br>
+                <a href="./reserve.html" style="color: #c4b3a8; text-decoration: none;">Reserve Your Stay</a></p>
+        </div>
+
+        <hr>
+    </div>
+
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
